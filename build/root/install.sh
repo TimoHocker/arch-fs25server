@@ -35,7 +35,7 @@ Include = /etc/pacman.d/mirrorlist \n\
 # pacman packages
 ####
 
-pacman -Sy
+pacman -Syu
 
 # call pacman db and package updater script
 source upd.sh
